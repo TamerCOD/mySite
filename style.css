@@ -1,0 +1,294 @@
+.body {
+    max-width: 950px;
+    font-size: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: rgb(41, 41, 41);
+}
+
+
+
+
+img {
+    border-radius: 50%;
+    box-shadow: 4px 4px 30px rgb(255, 5, 159);
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.shapka {
+    display: flex;
+    align-items: center;
+    
+}
+
+.info {
+
+    margin-left: 40px;
+    padding-top: 80px;
+    padding-left: 5px;
+    border: 5px;
+    
+    
+    
+    
+}
+
+.fio {
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    font-weight: bolder;
+    box-shadow: 5px 5px 20px rgb(255, 2, 129);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+
+    
+
+
+.obo {
+    color: rgb(255, 2, 129);
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+.soc {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 40px;
+    font-size: 16px;
+}
+
+.soc a {
+    float: left;
+    width: 95px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a {
+    margin: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    background-color: rgb(255, 0, 191);
+    padding: 5px;
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    width: 45px;
+    
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    box-shadow: 5px 5px 20px rgb(255, 2, 129);
+    color: rgb(255, 2, 129);
+    background-color: black;
+    font-weight: bolder;
+}
+
+
+
+.hob {
+    background-color: rgb(61, 61, 61);
+    padding: 10px 10px 10px 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(216, 216, 216);
+    box-shadow: 4px 4px 16px rgb(250, 36, 118);
+}
+
+.hob p {
+    font-size: 20px;
+    color: rgb(255, 0, 191);
+    font-weight: bolder;
+    background-color: rgb(235, 235, 235);
+    border-radius: 10px;
+    padding: 7px;
+    width: 37%;
+    box-shadow: 4px 4px 25px rgb(255, 255, 255);
+    margin-left: 5px;
+    
+}
+
+.hob li {
+    font-size: 14px;
+    margin-top: 5px;
+    text-shadow: 2px 2px 7px rgb(255, 0, 119);
+}
+
+.opt {
+    background-color: rgb(61, 61, 61);
+    padding: 10px 10px 10px 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(107, 107, 107);
+    box-shadow: 4px 4px 16px rgb(250, 36, 118);
+}
+
+.opt p {
+    font-size: 20px;
+    color: rgb(255, 0, 191);
+    font-weight: bolder;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 7px;
+    width: 37%;
+    box-shadow: 4px 4px 25px rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+.opt td {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.table {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 75px;
+}
+
+.table td {
+    padding-left: 37px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px double rgb(255, 74, 180);
+    border-radius: 4px;
+    
+}
+
+.table td:nth-child(2), .table td:nth-child(3) {
+    color: rgb(255, 255, 255);
+}
+
+.table td:nth-child(1) {
+    color: rgb(255, 0, 140);
+}
+
+.obr {
+    background-color: rgb(61, 61, 61);
+    padding: 10px 10px 10px 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    color: rgb(107, 107, 107);
+    box-shadow: 4px 4px 16px rgb(250, 36, 118);
+}
+
+.obr p {
+    font-size: 20px;
+    color: rgb(255, 0, 191);
+    font-weight: bolder;
+    background-color: rgb(228, 228, 228);
+    border-radius: 10px;
+    padding: 7px;
+    width: 37%;
+    box-shadow: 4px 4px 25px rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+.obr td {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.ob {
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 75px;
+}
+
+.ob td:nth-child(2), .ob td:nth-child(3) {
+    color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 7px;
+    
+}
+
+.ob td:nth-child(1) {
+    color: rgb(255, 0, 140);
+    box-shadow: 4px 4px 16px;
+}
+
+.ob td {
+    padding-left: 37px;
+    padding-top: 12px;
+    padding-bottom: 4px;
+    border-bottom: 1px double rgb(255, 255, 255);
+    border-radius: 4px;
+    
+}
+
+.obs {
+    margin-top: 30px;
+    text-align: center;
+}
+.obs h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 4px 4px 16px rgb(255, 0, 191);
+    padding: 4px;
+    width: 37%;
+    margin: auto;
+}
+
+.fg {
+    margin-left: 65px;
+}
+
+.fg label {
+    color: rgb(255, 255, 255);
+    display: block;
+    font-size: 12px;
+    padding: 7px;
+    margin-top: 4px;
+}
+
+.fg input, .fg textarea {
+    width: 75%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border: 1px double rgb(255, 0, 191);
+    padding: 8px;
+    border-radius: 7px;
+    
+}
+
+.fg input:hover {
+    box-shadow: 3px 3px 12px rgb(99, 99, 99);
+}
+
+.fg textarea:hover {
+    box-shadow: 3px 3px 12px rgb(99, 99, 99);
+}
+
+.btn{
+    margin-top: 20px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.btn button {
+    color: white;
+    background-color: rgb(255, 0, 191);
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 40px 10px 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.btn button:hover {
+    box-shadow: 4px 4px 20px rgb(107, 107, 107);
+}
